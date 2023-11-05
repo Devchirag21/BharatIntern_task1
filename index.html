@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/6c9f82a70c.js" crossorigin="anonymous"></script>
+
+<!-- font  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Lisu+Bosa:wght@600;800&family=Lora:wght@600;700&family=Nunito+Sans:opsz,wght@6..12,500&family=PT+Sans&family=Roboto+Mono:wght@400;500&family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet">
+<!-- font  -->
+
+<body>
+    <div class="body__grid">
+        <div class="grid__left">
+
+
+            <!-- header section  -->
+
+            <section class="header">
+                <div class="header__container">
+                    <div class="section__header">
+                        <img src="image/image1.png" alt="logo">
+                    </div>
+                    <div class="section__header__content">
+                        <a href="#Home"><i class="fa-solid fa-house fa-2xl"></i><p>Home</p></a>
+                        <a href="#about"><i class="fa-solid fa-user fa-2xl"></i><p> About </p></a>
+                        <a href="#projects"> <i class="fa-solid fa-file fa-2xl"></i> <p> Projects</p></a>
+                        <a href="#content"><i class="fa-solid fa-envelope fa-2xl"></i><p> Contact</p> </a>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <div class="grid__right">
+            <!-- home section -->
+            <section class="home" id="Home">
+                <div class="home__container">
+                    <div class="home__header">
+                        <h2>I'm Chirag Chaudhary</h2>
+                        <p>Frontend developer</p>
+
+                        <img src="image/image1.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- about section -->
+            <section class="about" id="about">
+                <div class="about__container">
+                    <div class="about__header">
+                        <h1>Chirag Chaudhary</h1>
+                    </div>
+                    <div class="about__contant">
+                        <p>I'm chirag Chaudhary, a frontend developer with an unbridled passion for coding and crafting
+                            captivating web experiences. As I near the completion of my full stack developer journey,
+                            I've been dedicated to transforming design concepts into interactive web solutions using
+                            HTML, CSS, and JavaScript. Now, I'm excited to broaden my horizons and embrace the full
+                            stack, allowing me to not only design stunning user interfaces but also create the
+                            server-side magic that powers them. With an unwavering commitment to learning and an
+                            insatiable curiosity, I'm driven to push the boundaries of web development, always striving
+                            for excellence and innovation. Explore my portfolio to witness my journey in the
+                            ever-evolving world of web development</p>
+
+                        <div class="about__header2">
+                            <p class="tab__links active" onclick="opentab('Skills')">My Skills</p>
+                            <p class="tab__links" onclick="opentab('Experiences')">My Experiences</p>
+                            <p class="tab__links" onclick="opentab('Education')">My Education</p>
+                        </div>
+                        <div class="tab__content active__tab" id="Skills">
+                            <ul>
+                                <li><span>UI/UX </span> <br>Desining Web/App interface <br><br>
+                                    <div class="first"><span></span></div>
+                                </li>
+                                <li><span>Web Developer </span> <br>Web App Developer <br><br>
+                                    <div class="second"><span></span></div>
+                                </li>
+                                <li><span>App Developer </span> <br>Building Android/iOS apps <br><br>
+                                    <div class="third"><span></span></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab__content" id="Experiences">
+                            <ul>
+                                <li><span>Sept 2023 </span> <br>Web developer intern at codsoft</li>
+                                <li><span>Oct 2023 </span> <br>Web developer intern at prodigy infotech</li>
+                                <li><span>Nov 2023 </span> <br>Web developer intern at Bharat intern</li>
+                            </ul>
+                        </div>
+                        <div class="tab__content" id="Education">
+                            <ul>
+                                <li><span>2021-2024 </span> <br>BCA from Vidya Institute Of
+                                    Creative Teaching </li>
+                                <li><span>2023 </span> <br>Full Stack Developer from Udemy</li>
+                                <li><span>2023 </span> <br>Frontend Developer from Udemy</li>
+                            </ul>
+                        </div>
+                        <a href="image/Chirag Chaudhary resume .pdf" download class="btn1">Download CV</a>
+                    </div>
+                    <div class="about__flex">
+                    </div>
+                </div>
+            </section>
+            <!-- about section -->
+            <div class="project__head" id="projects">
+                <h1>My Projects</h1>
+            </div>
+            <section class="project">
+                <div class="project__container">
+                    <div class="card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="image/landing.jpg">
+                                <h3>Landing page</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>Discover my enticing landing page, a fusion of HTML, CSS,
+                                    and JavaScript that combines simplicity with captivating design for an
+                                    unforgettable user experience
+                                </p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="image/calculator.jpg">
+                                <h3>calculator</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>Explore my custom-built calculator, an elegant fusion of HTML, CSS, and JavaScript
+                                    that simplifies complex calculations with style and precision.
+                                </p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="image/temperature.jpg">
+                                <h3>Temperature <br>Converter</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>Experience the convenience of my temperature converter, a user-friendly tool created
+                                    with HTML, CSS, and JavaScript to seamlessly convert temperatures and simplify daily
+                                    tasks.
+                                </p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- contact us -->
+
+            <section class="content" id="content">
+                <div class="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact_left">
+                                <h1 class="content__head">Contact Me</h1>
+                                <p class="section__content"><i class="fa-solid fa-paper-plane"></i>chaudharychirag3072@gmail.com</p>
+                                <p class="section__content"><i class="fa-solid fa-phone"></i>XXXXXXXXXX</p>
+                                <div class="social_icon">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="contact_right">
+                                <form action="">
+                                    <input type="text" name="Name" placeholder="Your Name" required>
+                                    <input type="email" name="Email" placeholder="Your Email" required>
+                                    <textarea name="Message" id="" cols="0" rows="6"
+                                        placeholder="Your Message"></textarea>
+                                    <button type="submit" class="btn2 btn3">Sumbit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <div class="copyright">
+                <p>copyright &copy;chirag. made by me</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab__links");
+        var tabcontents = document.getElementsByClassName("tab__content");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active__tab");
+            }
+            event.currentTarget.classList.add("active");
+            document.getElementById(tabname).classList.add("active__tab");
+        }
+    </script>
+</body>
+
+</html>
